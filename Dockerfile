@@ -50,6 +50,3 @@ USER linuxgsm
 
 # Make server port available to host : (10 slots)
 EXPOSE ${STEAM_PORT_1}/udp ${STEAM_PORT_2}/udp ${SERVER_PORT}/udp ${PLAYER_PORTS} ${RCON_PORT}
-
-# Persistant folder with server data : /server-data
-VOLUME ["/server-data", "/server-files"]
